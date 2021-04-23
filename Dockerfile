@@ -38,4 +38,3 @@ RUN cd bashbrew/go && gb build
 VOLUME $BASHBREW_CACHE
 
 RUN ln -s "$PWD/bashbrew/bashbrew-entrypoint.sh" /usr/local/bin/bashbrew-entrypoint.sh
-ENTRYPOINT ["bashbrew-entrypoint.sh"]
